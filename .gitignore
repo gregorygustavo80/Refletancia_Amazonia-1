@@ -1,0 +1,29 @@
+# Ignorar diretórios de ambientes virtuais
+venv/
+*.venv/
+env/
+*.env/
+
+# Ignorar arquivos de cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar configurações específicas do IDE
+.vscode/
+.idea/
+
+# Ignorar arquivos de configuração do sistema
+*.bak
+*.swp
+*.swo
+
+# Ignorar arquivos do pytest
+.cache/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários
+*.tmp
